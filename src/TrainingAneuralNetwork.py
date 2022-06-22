@@ -41,7 +41,7 @@ class TrainingAneuralNetwork(Dataset):
         print(f"Set of data how result from data generate and function apply in each one: {self.data_set}")
         ...
 
-    def __len(self) -> int:
+    def __len__(self) -> int:
         """
         Length of dataset
         :return: int
